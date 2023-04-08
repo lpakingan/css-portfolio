@@ -13,4 +13,17 @@ header {
 
 header nav ul {
     list-style-type: none;
+    font-size: 120%;
+    padding: 10px 0;
+}
+
+/* format nav bar links */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header nav ul li {
+    display: inline;
+    margin-inline: 10px;
 }
