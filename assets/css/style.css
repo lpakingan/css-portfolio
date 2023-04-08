@@ -6,6 +6,11 @@ body {
 
 header {
     display: flex;
-    justify-content:space-between;
-    padding: 30px;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    padding: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
 }
