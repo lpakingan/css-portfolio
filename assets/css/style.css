@@ -27,3 +27,17 @@ header nav ul li {
     display: inline;
     margin-inline: 10px;
 }
+
+.showcase {
+    display: flex;
+    flex-direction: column
+}
+
+.showcase_section h2 {
+    width: 30%;
+    text-align: center;
+}
+
+.showcase_section {
+    display: flex;
+}
