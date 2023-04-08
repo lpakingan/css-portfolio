@@ -1,7 +1,8 @@
 
 body {
     font-family: Arial;
-    font-size: 100%
+    font-size: 100%;
+    margin: 0
 }
 
 header {
@@ -9,6 +10,9 @@ header {
     flex-wrap: wrap;
     justify-content:space-evenly;
     padding: 20px;
+    color: white;
+
+    background-color: rgb(142, 175, 245);
 }
 
 header nav ul {
@@ -20,7 +24,7 @@ header nav ul {
 /* format nav bar links */
 a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 header nav ul li {
