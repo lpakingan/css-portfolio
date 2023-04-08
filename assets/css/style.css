@@ -33,11 +33,11 @@ header nav ul li {
     flex-direction: column
 }
 
-.showcase_section h2 {
+.showcase div h2 {
     width: 30%;
     text-align: center;
 }
 
-.showcase_section {
+.showcase div {
     display: flex;
 }
