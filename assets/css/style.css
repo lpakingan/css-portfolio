@@ -1,10 +1,14 @@
 :root {
-    --periwinkle: rgb(142, 175, 245)
+    --periwinkle: rgb(142, 175, 245);
+    --white: rgb(255, 255, 255)
 }
+
 body {
     font-family: Arial;
     font-size: 100%;
-    margin: 0
+    margin: 0;
+
+    background-color: var(--periwinkle)
 }
 
 header {
@@ -12,7 +16,7 @@ header {
     flex-wrap: wrap;
     justify-content:space-evenly;
     padding: 20px;
-    color: white;
+    color: var(--white);
 
     background-color: var(--periwinkle);
 }
@@ -26,7 +30,7 @@ header nav ul {
 /* format nav bar links */
 a {
     text-decoration: none;
-    color: white;
+    color: var(--white);
 }
 
 header nav ul li {
@@ -36,7 +40,8 @@ header nav ul li {
 
 .showcase {
     display: flex;
-    flex-direction: column
+    flex-direction: column;
+    color: var(--white)
 }
 
 .showcase div h2 {
@@ -44,9 +49,18 @@ header nav ul li {
     text-align: right;
     margin-right: 10px;
     padding-right: 20px;
-    border-right: 5px black solid
+    border-right: 5px var(--white) solid
 }
 
 .showcase div {
     display: flex;
+}
+
+.hide_case {
+    opacity: 0; 
+    transition: all 0.5s ease-in-out;
+}
+
+.about_me_case:hover + .hide_case{
+    opacity: 1
 }
