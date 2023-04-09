@@ -1,6 +1,7 @@
 :root {
     --periwinkle: rgb(142, 175, 245);
-    --white: rgb(255, 255, 255)
+    --white: rgb(255, 255, 255);
+    --pink: rgb(190, 142, 245)
 }
 
 body {
@@ -8,7 +9,9 @@ body {
     font-size: 100%;
     margin: 0;
 
-    background-color: var(--periwinkle)
+    background-image: linear-gradient(
+        var(--periwinkle)0%,
+        var(--pink)100%);
 }
 
 header {
@@ -18,7 +21,9 @@ header {
     padding: 20px;
     color: var(--white);
 
-    background-color: var(--periwinkle);
+    background-image: linear-gradient(
+        var(--periwinkle)0%,
+        var(--pink)100%);
 }
 
 header h1 {
