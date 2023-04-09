@@ -38,8 +38,11 @@ header nav ul li {
 }
 
 .showcase div h2 {
-    width: 30%;
-    text-align: center;
+    width: 20%;
+    text-align: right;
+    margin-right: 10px;
+    padding-right: 20px;
+    border-right: 5px black solid
 }
 
 .showcase div {
