@@ -21,10 +21,14 @@ header {
     background-color: var(--periwinkle);
 }
 
+header h1 {
+    font-size: 300%
+}
+
 header nav ul {
     list-style-type: none;
     font-size: 120%;
-    padding: 10px 0;
+    padding: 30px 0;
 }
 
 /* format nav bar links */
@@ -53,6 +57,7 @@ header nav ul li {
 
 .showcase div h2 {
     width: 20%;
+    font-size: 200%;
     text-align: right;
     margin-right: 10px;
     padding-right: 20px;
