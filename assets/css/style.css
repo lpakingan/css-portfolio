@@ -1,4 +1,6 @@
-
+:root {
+    --periwinkle: rgb(142, 175, 245)
+}
 body {
     font-family: Arial;
     font-size: 100%;
@@ -12,7 +14,7 @@ header {
     padding: 20px;
     color: white;
 
-    background-color: rgb(142, 175, 245);
+    background-color: var(--periwinkle);
 }
 
 header nav ul {
