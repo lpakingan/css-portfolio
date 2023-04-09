@@ -38,6 +38,13 @@ header nav ul li {
     margin-inline: 10px;
 }
 
+.graphic {
+    height: 400px;
+    background-image: url("https://moewalls.com/wp-content/uploads/2022/07/lofi-nightlife-city-thumb.jpg");
+    background-size: cover;
+    background-position: center
+}
+
 .showcase {
     display: flex;
     flex-direction: column;
@@ -56,11 +63,11 @@ header nav ul li {
     display: flex;
 }
 
-.hide_case {
+/* .hide_case {
     opacity: 0; 
     transition: all 0.5s ease-in-out;
 }
 
 .about_me_case:hover + .hide_case{
     opacity: 1
-}
+} */
