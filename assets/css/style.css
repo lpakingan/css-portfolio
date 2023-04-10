@@ -26,6 +26,10 @@ header {
         var(--pink)100%);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 header h1 {
     font-size: 300%
 }
