@@ -110,15 +110,16 @@ header nav ul li {
     text-align: center
 }
 
-/* .project_title {
+.project_title {
     position: absolute;
-    top: 80%;
-    font-size: 150%;
+    top: 15%;
+    font-size: 2vw;
     z-index: 1;
     border: 2px var(--periwinkle) solid;
     padding: 5px;
     border-radius: 5px;
-} */
+    flex: 1 0 100%
+}
 
 .project:first-child {
     flex: 1 0 100%;
