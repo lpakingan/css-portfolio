@@ -79,6 +79,10 @@ header nav ul li:hover {
     border-right: 5px var(--white) solid
 }
 
+.showcase div h2::before {
+    content: "𓆩✧𓆪 "
+}
+
 .showcase div {
     display: flex;
 }
