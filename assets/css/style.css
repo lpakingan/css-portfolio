@@ -79,7 +79,17 @@ header nav ul li {
 
 .about_me_case p {
     padding: 30px;
-    font-size: 120%
+    font-size: 120%;
+}
+
+.about_me_picture {
+    height: 300px;
+    margin: 3%;
+    border: 5px var(--white) solid;
+    border-radius: 50%;
+    background-image: linear-gradient(
+        var(--periwinkle)0%,
+        var(--pink)100%);
 }
 
 .project_display {
