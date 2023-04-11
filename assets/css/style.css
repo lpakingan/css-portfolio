@@ -167,8 +167,12 @@ header nav ul li:hover {
 }
 
 .resume_case p {
-    padding: 30px;
+    margin: auto;
     font-size: 120%
+}
+
+.contact_me_case {
+    margin: auto;
 }
 
 .contact_me_case nav ul{
