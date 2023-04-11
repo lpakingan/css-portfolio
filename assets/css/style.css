@@ -77,9 +77,16 @@ header nav ul li {
     display: flex;
 }
 
+.about_me_case {
+    display: flex;
+    flex: 1 0 50%
+}
+
 .about_me_case p {
     padding: 30px;
     font-size: 120%;
+    text-align: center;
+    line-height: 30px
 }
 
 .about_me_picture {
@@ -90,6 +97,11 @@ header nav ul li {
     background-image: linear-gradient(
         var(--periwinkle)0%,
         var(--pink)100%);
+}
+
+.about_me_picture:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out
 }
 
 .project_display {
