@@ -182,5 +182,6 @@ header nav ul li:hover {
 .contact_me_case nav ul li {
     display: inline-flex;
     margin-inline: 30px;
+    line-height: 50px;
     font-size: 120%
 }
