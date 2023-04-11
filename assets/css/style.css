@@ -85,7 +85,8 @@ header nav ul li:hover {
 
 .about_me_case {
     display: flex;
-    flex: 1 0 50%
+    flex: 1 0 50%;
+    padding: 20px
 }
 
 .about_me_case p {
@@ -97,7 +98,7 @@ header nav ul li:hover {
 
 .about_me_picture {
     height: 300px;
-    margin: 3%;
+    margin: auto;
     border: 5px var(--white) solid;
     border-radius: 50%;
     background-image: linear-gradient(
@@ -118,7 +119,7 @@ header nav ul li:hover {
 .projects_case img {
     width:800px;
     height: 800px;
-    max-width:90%;
+    max-width: 90%;
     height: 90%;
     margin: 20px;
     border: 2px var(--white) solid;
@@ -171,7 +172,7 @@ header nav ul li:hover {
 }
 
 .contact_me_case nav ul li {
-    display: inline;
+    display: inline-flex;
     margin-inline: 30px;
     font-size: 120%
 }
