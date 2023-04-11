@@ -148,7 +148,8 @@ header nav ul li:hover {
     top: 15%;
     font-size: 2vw;
     z-index: 1;
-    border: 2px var(--periwinkle) solid;
+    border: 2px var(--white) solid;
+    background-color: var(--periwinkle);
     padding: 5px;
     border-radius: 5px;
     flex: 1 0 100%
