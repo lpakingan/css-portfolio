@@ -216,3 +216,51 @@ a {
     transform: scale(1.05);
     transition: all 0.5s ease-in-out
 }
+
+/* moves nav bar in header to second line at 992px resolution */
+@media screen and (max-width: 992px) {
+    header {
+        flex-direction: column;
+        text-align: center
+    }
+  }
+  
+/* makes nav bar adopt column/vertical format at 768 resolution */
+@media screen and (max-width: 768px) {
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+        line-height: 50px;
+        margin: -40px -20px 0;
+    }
+  }
+
+/* centers nav bar in Contact Me section at 992 resolution when it enters new line*/
+@media screen and (max-width: 992px) {
+    .contact_me_case {
+        text-align: center;
+    }
+  }
+  
+/* makes nav bar adopt a centered column/vertical format at 768 resolution */
+@media screen and (max-width: 768px) {
+    .contact_me_case nav ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact_me_case nav ul li{
+        flex-direction: column;
+     }
+  }
+
+/* makes nav bar adopt a centered column/vertical format at 768 resolution */
+@media screen and (max-width: 768px) {
+    .about_me_case {
+        flex-wrap: wrap;
+    }
+
+    .about_me_case {
+        margin-bottom: 50px
+    }
+}
