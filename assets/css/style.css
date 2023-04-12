@@ -195,6 +195,12 @@ a {
     font-size: 120%
 }
 
+.resume_case a {
+    text-decoration: none;
+    font-weight: bolder;
+    font-style: italic
+}
+
 /* formats the Contact Me section */
 .contact_me_case {
     margin: auto;
