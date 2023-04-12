@@ -1,9 +1,11 @@
+/* CSS variables for different colors used repeatedly throughout the page */
 :root {
     --periwinkle: rgb(142, 175, 245);
     --white: rgb(255, 255, 255);
     --pink: rgb(190, 142, 245)
 }
 
+/* font type, font size, and background color for all elements within the main element of the page */
 body {
     font-family: Arial;
     font-size: 100%;
@@ -14,6 +16,7 @@ body {
         var(--pink)100%);
 }
 
+/* formatting for elements in the header*/
 header {
     display: flex;
     flex-wrap: wrap;
@@ -26,10 +29,6 @@ header {
         var(--pink)100%);
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 header h1 {
     font-size: 300%
 }
@@ -40,23 +39,31 @@ header nav ul {
     padding: 30px 0;
 }
 
-/* format nav bar links */
-a {
-    text-decoration: underline 9px;
-    color: var(--white);
-}
-
+/* without hover, the navigation elements are transparent */
 header nav ul li {
     display: inline;
     margin-inline: 10px;
     opacity: 0.7
 }
 
+/* with hover, the navigation elements gradually become fully opaque  */
 header nav ul li:hover {
     opacity: 1;
-    transition: 1s ease-in-out
+    transition: .5s ease-in-out
 }
 
+/* scroll behavior for the html results in smooth scroll to where the link redirects */
+html {
+    scroll-behavior: smooth;
+}
+
+/* format nav bar links by thickening the underline*/
+a {
+    text-decoration: underline 9px;
+    color: var(--white);
+}
+
+/* formatting for the main graphic of the page  */
 .graphic {
     height: 400px;
     background-image: url("https://moewalls.com/wp-content/uploads/2022/07/lofi-nightlife-city-thumb.jpg");
@@ -64,12 +71,14 @@ header nav ul li:hover {
     background-position: center
 }
 
+/* the main flex contatiner for the body of the webpage */
 .showcase {
     display: flex;
     flex-direction: column;
     color: var(--white)
 }
 
+/* formatting for all of the header titles for each subsection */
 .showcase div h2 {
     flex: 0 0 20%;
     font-size: 200%;
@@ -79,14 +88,17 @@ header nav ul li:hover {
     border-right: 5px var(--white) solid
 }
 
+/* adds a little symbol before each of the header titles */
 .showcase div h2::before {
     content: "𓆩✧𓆪 "
 }
 
+/* responsive design for the whole showcase */
 .showcase div {
     display: flex;
 }
 
+/* formatting for the About Me case */
 .about_me_case {
     display: flex;
     flex: 1 0 50%;
@@ -100,6 +112,7 @@ header nav ul li:hover {
     line-height: 30px
 }
 
+/* formatting for the About Me picture */
 .about_me_picture {
     height: 300px;
     margin: auto;
@@ -110,16 +123,20 @@ header nav ul li:hover {
         var(--pink)100%);
 }
 
+/* with hover, the picture increases in size minimally */
 .about_me_picture:hover {
     transform: scale(1.1);
     transition: 0.5s ease-in-out
 }
 
+/* responsive design for the Projects section */
 .project_display {
     display: flex;
     flex-wrap: wrap
 }
 
+/* resizing and reformatting all the images into the same size */
+/* without hover, the images are half the opacity they normally are */
 .projects_case img {
     width:800px;
     height: 800px;
@@ -130,18 +147,22 @@ header nav ul li:hover {
     opacity: 0.5 
 }
 
+/* with hover, the images gradually become full opacity and minimally increase in size */
 .projects_case img:hover {
     opacity: 1;
     transform: scale(1.05);
     transition: all 0.5s ease-in-out
 }
 
+/* formatting for each specific project image within the Projects case */
+/* allows for text placement above the images */
 .project {
     display: inline-block;
     position: relative;
     text-align: center
 }
 
+/* moves the titles of each of the project images above the respective images and formats them */
 .project_title {
     position: absolute;
     top: 10%;
@@ -153,6 +174,8 @@ header nav ul li:hover {
     border-radius: 5px;
 }
 
+/* takes the first child of the project class (the first project) and makes it bigger than the others */
+/* zoom to increase its size */
 .project:first-child {
     flex: 1 0 100%;
     justify-content: center;
@@ -160,16 +183,19 @@ header nav ul li:hover {
     zoom: 2
 }
 
+/* formats the other projects that are not the first child */
 .project:not(:first-child) {
     flex: 1 0 50%;
     justify-content: center
 }
 
+/* formats the Resume section */
 .resume_case p {
     margin: auto;
     font-size: 120%
 }
 
+/* formats the Contact Me section */
 .contact_me_case {
     margin: auto;
 }
@@ -185,6 +211,7 @@ header nav ul li:hover {
     font-size: 130%;
 }
 
+/* similar to other hover elements above; increases size of navigation elements when hovered over */
 .contact_me_case nav ul li:hover {
     transform: scale(1.05);
     transition: all 0.5s ease-in-out
