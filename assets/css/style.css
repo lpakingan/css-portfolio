@@ -225,7 +225,7 @@ a {
     }
   }
   
-/* makes nav bar adopt column/vertical format at 768 resolution */
+/* makes nav bar adopt column/vertical format at 768px resolution */
 @media screen and (max-width: 768px) {
     header nav ul {
         display: flex;
@@ -242,7 +242,7 @@ a {
     }
   }
   
-/* makes nav bar adopt a centered column/vertical format at 768 resolution */
+/* makes nav bar adopt a centered column/vertical format at 768px resolution */
 @media screen and (max-width: 768px) {
     .contact_me_case nav ul{
         display: flex;
@@ -254,7 +254,7 @@ a {
      }
   }
 
-/* makes nav bar adopt a centered column/vertical format at 768 resolution */
+/* pushes picture in About Me below the paragraph at 768px resolution*/
 @media screen and (max-width: 768px) {
     .about_me_case {
         flex-wrap: wrap;
