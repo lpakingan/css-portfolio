@@ -218,14 +218,20 @@ a {
 }
 
 /* moves nav bar in header to second line at 992px resolution */
+/* centers nav bar in Contact Me section at 992px resolution when it enters new line*/
 @media screen and (max-width: 992px) {
     header {
         flex-direction: column;
         text-align: center
     }
+    .contact_me_case {
+        text-align: center;
+    }
   }
   
-/* makes nav bar adopt column/vertical format at 768px resolution */
+/* makes nav bar in header adopt column/vertical format at 768px resolution and adds margins for cushion */
+/* pushes picture in About Me below the paragraph at 768px resolution*/
+/* makes nav bar in Contact Me adopt a centered column/vertical format at 768px resolution */
 @media screen and (max-width: 768px) {
     header nav ul {
         display: flex;
@@ -233,17 +239,12 @@ a {
         line-height: 50px;
         margin: -40px -20px 0;
     }
-  }
 
-/* centers nav bar in Contact Me section at 992 resolution when it enters new line*/
-@media screen and (max-width: 992px) {
-    .contact_me_case {
-        text-align: center;
+    .about_me_case {
+        flex-wrap: wrap;
+        margin-bottom: 50px
     }
-  }
-  
-/* makes nav bar adopt a centered column/vertical format at 768px resolution */
-@media screen and (max-width: 768px) {
+    
     .contact_me_case nav ul{
         display: flex;
         flex-direction: column;
@@ -253,14 +254,3 @@ a {
         flex-direction: column;
      }
   }
-
-/* pushes picture in About Me below the paragraph at 768px resolution*/
-@media screen and (max-width: 768px) {
-    .about_me_case {
-        flex-wrap: wrap;
-    }
-
-    .about_me_case {
-        margin-bottom: 50px
-    }
-}
