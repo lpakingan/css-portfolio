@@ -36,7 +36,7 @@ To make the website more interactive, other stylistic elements for hovering over
 ![](https://github.com/lpakingan/challenge-2-css-portfolio/blob/main/assets/README_images/portfolio_demo.gif)
 
 #### Extra Notes
-All images used in this challenge are placeholder images that were used just for this challenge only and will be swapped out in the future prior to the public sharing of the portfolio website. Twitter was added in the Contact Me section's navigation bar but does not redirect to a new page as I do not currently have a Twitter account but plan to in the future. 
+All images used in this challenge are placeholder images that were used just for this challenge only and will be swapped out in the future prior to the public sharing of the portfolio website. A placeholder link was added in the Resume section for when a resume is linked in the future. Twitter was added in the Contact Me section's navigation bar but does not redirect to a new page as I do not currently have a Twitter account but plan to in the future. 
 
 ## Deployed Application
 The final deployed webpage can be found [here](https://lpakingan.github.io/challenge-2-css-portfolio/).
