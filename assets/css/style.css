@@ -43,13 +43,13 @@ header nav ul {
 header nav ul li {
     display: inline;
     margin-inline: 10px;
-    opacity: 0.7
+    opacity: 0.7;
+    transition: .5s ease-in-out
 }
 
 /* with hover, the navigation elements gradually become fully opaque  */
 header nav ul li:hover {
     opacity: 1;
-    transition: .5s ease-in-out
 }
 
 /* scroll behavior for the html results in smooth scroll to where the link redirects */
@@ -121,12 +121,12 @@ a {
     background-image: linear-gradient(
         var(--periwinkle)0%,
         var(--pink)100%);
+        transition: 0.5s ease-in-out
 }
 
 /* with hover, the picture increases in size minimally */
 .about_me_picture:hover {
     transform: scale(1.1);
-    transition: 0.5s ease-in-out
 }
 
 /* responsive design for the Projects section */
@@ -143,15 +143,15 @@ a {
     max-width: 90%;
     height: 90%;
     border: 3px var(--white) solid;
-    border-radius: 5%;
-    opacity: 0.5 
+    border-radius: 20px;
+    opacity: 0.5 ;
+    transition: all 0.5s ease-in-out
 }
 
 /* with hover, the images gradually become full opacity and minimally increase in size */
 .projects_case img:hover {
     opacity: 1;
     transform: scale(1.05);
-    transition: all 0.5s ease-in-out
 }
 
 /* formatting for each specific project image within the Projects case */
@@ -215,12 +215,12 @@ a {
     margin-inline: 30px;
     line-height: 50px;
     font-size: 130%;
+    transition: all 0.5s ease-in-out
 }
 
 /* similar to other hover elements above; increases size of navigation elements when hovered over */
 .contact_me_case nav ul li:hover {
     transform: scale(1.05);
-    transition: all 0.5s ease-in-out
 }
 
 /* moves nav bar in header to second line at 992px resolution */
